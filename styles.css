@@ -95,8 +95,8 @@ button{
     .accordion-button {
         background-color: #f4f4f4;
         color: #333;
-        padding: 10px;
-        width: 90%;
+        padding: 1em;
+        width: 100%;
         text-align: left;
         border: none;
         cursor: pointer;
