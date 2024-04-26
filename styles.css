@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+h1{
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    padding: 1em;
+}
+span{
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+}
+p{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 2.5em;
+    font-size: 2em;}
+.boldline{
+    padding: 0;
+    margin-bottom: 0;
+    padding-left: 3em;
+    margin-top: 0;
+    color:#c09838;
+}
+.ending{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+button{
+    padding: 1em;
+    margin: 1em;
+    font-size: 2em;
+   float: right;
+   background-color: #c09838;
+   color:#1e1e1e;
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   border-color: #ffffff #1e1e1e;
+   border-width: .5em;
+   border-style: double;
+   border-radius: 20em;
+   border-top-right-radius: 2em;
+}
+
+.header-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-content {
+    white-space: nowrap;
+  
+    animation: scrollText 10s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.card{  position: relative;
+    width: 100%;http://127.0.0.1:3000/images/sum41.png
+    overflow: hidden;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    padding: 2em;}
+
+.banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    object-fit: cover;
+    display: flex;}
+
+    .accordion-item {
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .accordion-button {
+        background-color: #f4f4f4;
+        color: #333;
+        width: 75%;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+        margin: 3em;
+    }
+    
+    .accordion-content {
+        padding: 10px;
+        display: none;
+    }
+    
+    .accordion-content img {
+        max-width: 100%;
+    }
+    
+    .active {
+        display: block;
+    }
+    
