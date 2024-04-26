@@ -73,7 +73,7 @@ button{
     }
 }
 .card{  position: relative;
-    width: 100%;http://127.0.0.1:3000/images/sum41.png
+    width: 100%;
     overflow: hidden;
     height: auto;
     object-fit: cover;
@@ -95,23 +95,24 @@ button{
     .accordion-button {
         background-color: #f4f4f4;
         color: #333;
-        width: 75%;
+        padding: 10px;
+        width: 90%;
         text-align: left;
         border: none;
         cursor: pointer;
-        margin: 3em;
     }
     
     .accordion-content {
-        padding: 10px;
+        padding: 1em;
         display: none;
     }
     
     .accordion-content img {
-        max-width: 100%;
+        max-width: 90%;
     }
     
-    .active {
+    .active .accordion-content {
         display: block;
     }
+    
     
