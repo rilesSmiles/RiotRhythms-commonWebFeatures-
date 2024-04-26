@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+}
+main{
     background-color: #1e1e1e;
     color: #ffffff;
 }
@@ -22,7 +24,8 @@ p{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    padding: 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
     font-size: 2em;}
 .boldline{
     padding: 0;
@@ -34,6 +37,7 @@ p{
 .ending{
     padding-bottom: 0;
     padding-top: 0;
+    padding-bottom: 1em;
 }
 button{
     padding: 1em;
@@ -115,4 +119,7 @@ button{
         display: block;
     }
     
-    
+    footer{
+        background-color: #c09838;
+        color: #1e1e1e;
+    }
